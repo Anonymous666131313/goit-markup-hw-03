@@ -7,16 +7,38 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
 /* -------HEADER-------- */
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -32,6 +54,7 @@ a {
 }
 .header-logo {
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part {
 }
@@ -41,6 +64,9 @@ a {
   color: #404bbf;
 }
 .header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-nav-item {
@@ -52,6 +78,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px;
+  display: block;
 }
 
 .header-contacts-link:hover,
@@ -60,8 +88,12 @@ a {
 }
 .header-contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .header-contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-contacts-item {
 }
@@ -73,6 +105,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 /* -------HEADER-------- */
 
@@ -102,13 +136,13 @@ a {
   background-color: #404bbf;
   color: #fff;
   cursor: pointer;
- }
+}
 
- .hero-primary-button:focus {
-   background-color: #404bbf;
-   color: #fff;
-   outline: none;
- }
+.hero-primary-button:focus {
+  background-color: #404bbf;
+  color: #fff;
+  outline: none;
+}
 /* -------HERO-------- */
 
 /* -------FEATURES-------- */
@@ -117,7 +151,6 @@ a {
 .features-list {
 }
 .features-item {
-
 }
 .features-subtitle {
   font-weight: 500;
@@ -160,7 +193,7 @@ a {
 .team-list {
 }
 .team-item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .team-image {
 }
@@ -189,7 +222,6 @@ a {
 .portfolio-list {
 }
 .portfolio-item {
-
 }
 .portfolio-image {
 }
