@@ -247,7 +247,7 @@ padding: 32px 0 32px;
 /* -------TEAM-------- */
 
 /* -------Portfolio-------- */
-.portfolio {
+.portfolio { padding-top: 120px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -258,10 +258,22 @@ padding: 32px 0 32px;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
 }
 .portfolio-image {
   margin-bottom: 32px;
