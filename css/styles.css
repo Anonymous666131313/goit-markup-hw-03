@@ -290,6 +290,11 @@ a {
   margin-bottom: 32px;
   display: block;
 }
+.portfolio-container-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
