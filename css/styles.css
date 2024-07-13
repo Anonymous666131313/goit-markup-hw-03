@@ -207,6 +207,7 @@ padding-top: 188px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-list {
 }
@@ -214,6 +215,7 @@ padding-top: 188px;
   background-color: #ffffff;
 }
 .team-image {
+  margin-bottom: 32px;
 }
 .team-text {
   font-size: 16px;
@@ -221,6 +223,7 @@ padding-top: 188px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 /* -------TEAM-------- */
@@ -236,6 +239,7 @@ padding-top: 188px;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-list {
 }
