@@ -246,6 +246,7 @@ padding-top: 188px;
 .portfolio-item {
 }
 .portfolio-image {
+  margin-bottom: 32px;
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -253,12 +254,14 @@ padding-top: 188px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
 }
 /* -------Portfolio-------- */
 
