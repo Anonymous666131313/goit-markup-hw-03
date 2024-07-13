@@ -112,8 +112,7 @@ a {
 
 /* -------HERO-------- */
 .hero {
-  padding-top: 188px 0;
-    padding-bottom: 188px 0;
+  padding: 188px 0 188px;
 }
 .hero-container{
     background: #2e2f42;
