@@ -211,6 +211,9 @@ width: calc((100% - 72px) / 4);
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.team-container { 
+padding: 32px 0 32px;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -221,9 +224,13 @@ width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-image {
   margin-bottom: 32px;
